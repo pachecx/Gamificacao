@@ -88,10 +88,18 @@ export const Main = styled.div`
     }
   }
 
-  .creator {
-    grid-column: 1 / -1; /* Expande o item para ambas as colunas */
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
+  .creator-wrapper {
+    width: 50%;
+    grid-column: 1 / -1; /* Expande o item para ocupar ambas as colunas */
+    justify-self: center; /* Centraliza o item horizontalmente */
+    background: linear-gradient(
+      90deg,
+      rgba(41, 60, 87, 1) 0%,
+      rgba(209, 119, 235, 1) 50%,
+      rgba(67, 45, 73, 1) 100%
+    );
+    padding: 4px;
+    border-radius: 12px;
+    display: inline-block;
   }
 `;

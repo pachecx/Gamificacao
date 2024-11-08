@@ -94,7 +94,7 @@ function App() {
           </div>
         </div>
 
-        <div className="sites-wrapper">
+        <div className="creator-wrapper">
           <div className="creator">
             <button>
               <p>Creator</p>
