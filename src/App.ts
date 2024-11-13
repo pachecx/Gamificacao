@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
   overflow: hidden;
   padding-top: 2rem;
-  max-width: 46rem;
+  //max-width: 46rem;
   margin: 0 auto;
 
   .imgFundo {
@@ -18,6 +18,9 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     height: 50%;
     width: 100%;
+  }
+
+  @media (min-width: 769px) {
   }
 `;
 
@@ -41,6 +44,21 @@ export const Header = styled.div`
 
   h1 {
     line-height: 3rem;
+  }
+
+  @media (min-width: 769px) {
+    background: rgb(255, 247, 173);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 247, 173, 1) 0%,
+      rgba(255, 169, 249, 1) 100%
+    );
+
+    margin-bottom: 3rem;
+
+    h1 br {
+      display: none;
+    }
   }
 `;
 
@@ -101,5 +119,11 @@ export const Main = styled.div`
     padding: 4px;
     border-radius: 12px;
     display: inline-block;
+  }
+
+  @media (min-width: 769px) {
+    max-width: 60%;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
   }
 `;

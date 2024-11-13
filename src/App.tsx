@@ -1,11 +1,16 @@
 import { Container, Header, Main } from "./App";
 import { CiSearch } from "react-icons/ci";
 import imgFundo from "./assets/hhh.png";
+import imgDesk from "./assets/imgDesk.png";
+
+import { Responsividade } from "./components/responsividade/index";
 
 function App() {
   return (
     <Container>
-      <img className="imgFundo" src={imgFundo} />
+      {/* <img className="imgFundo" src={imgFundo} />
+      <img className="imgDesk" src={imgDesk} /> */}
+      <Responsividade bgImgM={imgFundo} bgImgDesk={imgDesk} bgImgTablet={""} />
       <Header>
         <h1>
           Explorando <br />a Gamificação
