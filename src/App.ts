@@ -99,9 +99,11 @@ export const Main = styled.div`
       background: transparent;
       border: none;
 
-      p {
+      a {
+        text-decoration: none;
         font-size: 1.6rem;
         font-weight: bold;
+        color: black;
       }
     }
   }

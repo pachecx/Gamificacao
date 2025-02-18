@@ -4,6 +4,7 @@ import imgFundo from "./assets/hhh.png";
 import imgDesk from "./assets/imgDesk.png";
 
 import { Responsividade } from "./components/responsividade/index";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <div className="sites-wrapper">
           <div className="sites">
             <button>
-              <p> Humanidades</p>
+              <Link to={"/molde"}> Humanidades</Link>
             </button>
           </div>
         </div>
